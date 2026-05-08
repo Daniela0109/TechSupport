@@ -1,79 +1,78 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# TechSupport
 
-# Getting Started
+Aplicación móvil desarrollada con React Native y MongoDB orientada a la gestión de incidencias y soporte técnico. Permite a los usuarios crear tickets, dar seguimiento a reportes y conectarse con técnicos de soporte de forma sencilla.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Características principales
 
-## Step 1: Start the Metro Server
+- Registro e inicio de sesión de usuarios
+- Creación y seguimiento de tickets de soporte
+- Asignación de incidencias a técnicos
+- Persistencia de datos mediante MongoDB
+- Navegación entre pantallas y manejo de estados
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Tecnologías
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- React Native
+- Node.js
+- MongoDB
+- Express
+- JWT Authentication
+
+## Publicación
+
+Disponible en Google Play Store:
+
+[TechSupport en Play Store](https://play.google.com/store/apps/details?id=com.techsupport)
+
+![Play Store](assets/playstore.png)
+
+## Capturas
+
+![Login](assets/login.png)
+
+![Inicio](assets/dashboard.png)
+
+![Tickets](assets/tickets.png)
+
+![Lista expertos](assets/listExpert.png)
+
+## Instalación y configuración
+
+### Clonar repositorio
 
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+git clone https://github.com/TU_USUARIO/TechSupport.git
+cd TechSupport
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+### Instalar dependencias
 
 ```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+npm install
 ```
 
-### For iOS
+o con Yarn:
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+yarn install
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Variables de entorno
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Crear un archivo `.env` en la raíz:
 
-## Step 3: Modifying your App
+```env
+PORT=3000
+MONGO_URI=mongodb://localhost:27017/techsupport
+JWT_SECRET=tu_secreto_aqui
+```
 
-Now that you have successfully run the app, let's modify it.
+### Ejecutar aplicación Android
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+```bash
+npx react-native run-android
+```
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Lo que aprendí
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Durante este proyecto aprendí a conectar una aplicación móvil con un backend y una base de datos MongoDB, manejar autenticación mediante JWT y estructurar componentes reutilizables en React Native.
