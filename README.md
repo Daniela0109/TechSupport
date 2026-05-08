@@ -24,17 +24,17 @@ Disponible en Google Play Store:
 
 [TechSupport en Play Store](https://play.google.com/store/apps/details?id=com.techsupport)
 
-![Play Store](assets/playstore.png)
+![Play Store](assets/playstore.jpeg)
 
 ## Capturas
 
-![Login](assets/login.png)
+![Login](assets/login.jpeg)
 
-![Inicio](assets/dashboard.png)
+![Inicio](assets/dashboard.jpeg)
 
-![Tickets](assets/tickets.png)
+![Tickets](assets/tickets.jpeg)
 
-![Lista expertos](assets/listExpert.png)
+![Lista expertos](assets/listExpert.jpeg)
 
 ## Instalación y configuración
 
