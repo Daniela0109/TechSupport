@@ -25,15 +25,10 @@ Disponible en Google Play Store:
 [TechSupport en Play Store](https://play.google.com/store/apps/details?id=com.techsupport)
 
 <p align="center">
-  <img src="assets/playstore.jpeg" width="700">
+  <img src="assets/playstore.jpeg" width="350">
 </p>
 
 ## Capturas
-
-### Inicio de sesión
-<p align="center">
-  <img src="assets/login.jpeg" width="250">
-</p>
 
 ### Dashboard
 <p align="center">
@@ -42,16 +37,13 @@ Disponible en Google Play Store:
 
 ### Tickets
 <p align="center">
-  <img src="
-    assets/tickets.jpeg" width="250">
+  <img src="assets/tickets.jpeg" width="250">
 </p>
 
 ### Lista expertos
 <p align="center">
-  <img src="
-    assets/listExpert.jpeg" width="250">
+  <img src="assets/listExpert.jpeg" width="250">
 </p>
-
 
 
 ## Instalación y configuración
